@@ -1495,7 +1495,7 @@ width: 340px;
     display: flex;
     flex-direction: column;
 }
-/* Benefits */
+
 .Benefits .ROW p{
     width: 300px;
     font-size: 16px;
@@ -1506,10 +1506,14 @@ width: 340px;
 /*Our_Courses */
 .Our_Courses{
 height: 4350px ;
-
+}
+.Our_Courses .row .Courses .card .Courses_information span {
+    color: #262626;
+    font-size: 15px;
+    font-weight: 600;
+   margin-left: 10px;
 
 }
-
 .Our_Courses .row .Courses .card{
     width: 400px;
  
@@ -1573,10 +1577,42 @@ height: 4350px ;
     width: 300px;
 }
 /*Our_Courses */
-
+.Our_Courses {
+    height:4500px ;
+}
 .Our_Courses .row .Courses .card{
     width: 300px;
  
  }
+ .Our_Courses .row .Courses .card .Courses_information span {
+    color: #262626;
+    font-size: 10px;
+    font-weight: 600;
+   margin-left: 10px;
+
+}
+.Our_Courses .row .Courses .card .Courses_information .right_sid a {
+ font-size: 12px;
+
+}
+/* Testimonials*/
+.Testimonials .row .Testimonial_card .card .Testimonial_information a{
+   font-size: 12px; 
+   padding: 5px 10px;
+}
+
+/*Pricing */
+
+.Pricing .row .out_box .card .first_button{
+    width: 250px;
+}
+
+.Pricing .row .out_box .card .close .Available .Properties{
+width: 200px;
+
+}
+.Pricing .row .out_box .card .close .Available .Properties p{
+ font-size: 10px;   
+}
 
 }
