@@ -1485,7 +1485,7 @@ width: 340px;
        }
 
 .section1 .sec_3{
-        width: 400px;
+        width: 500px;
     }
 
 
@@ -1552,9 +1552,9 @@ height: 4350px ;
     height:80px ;
   
  }
- .Home .section3 .img {
-    width: 300px;
-
+ 
+.section1 .sec_3{
+    width: 100%;
 }
 /*Benefits */
 .items_Container .Row .card .card_content h4{
