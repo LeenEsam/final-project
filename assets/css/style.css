@@ -660,7 +660,7 @@ display: flex;
 .Pricing .ROW .button{
    padding: 14px 30px;
    border-radius: 8px;
-   background:  #FCFCFD;
+   background: white;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -976,21 +976,7 @@ font-weight: 400;
     background: #F7F7F8; 
 }
 
-@media screen and (max-width: 1338px){
-  
-  /*Our_Courses */
-.Our_Courses{
-    height: 3900px ;
-    
-    }  
 
-/* Testimonials */
-.Testimonials{
-    height: 1600px;
-}
-
-
-}
 
 @media screen and (max-width: 1420px) {
 
@@ -1046,6 +1032,27 @@ margin-top: 10px;
 
 
 }
+
+
+
+@media screen and (max-width: 1338px){
+  
+  /*Our_Courses */
+.Our_Courses{
+    height: 3900px ;
+    
+    }  
+
+/* Testimonials */
+.Testimonials{
+    height: 1600px;
+}
+
+
+}
+
+
+
 @media screen and (max-width: 1250px){
   /*Benefits */
   .Benefits{
@@ -1290,12 +1297,6 @@ gap: 30px;
     flex-wrap: wrap;
 }
 
-
-
-
-
-
-
 }
 
 
@@ -1345,9 +1346,117 @@ width: 430px;
      height: 200px;
 
 }
+
 /* Testimonials */
 .Testimonials{
     height: 1750px;
 }
 
+
 }
+@media screen and (max-width: 600px){
+    /*Home*/
+    .Home .section1 .out .sec_1  {
+        width: 500px;
+        height: 70px;
+        
+        
+       }
+       .Home .section1 .out .sec_1 h1{
+           font-size:20px ;
+       }
+       .Home .section1 .out .sec_1 .svg{
+          width:25px ; 
+          height:25px ;
+       }
+       .section2 img{
+        border-left: 1px solid  #f7f7f8; 
+        width: 130px ;
+        height:90px ;
+        padding: 30px;
+       
+     }
+
+
+
+
+
+
+
+
+
+/*Pricing */
+
+.Pricing .row .out_box .card .first_button{
+    width: 400px;
+}
+
+.Pricing .row .out_box .card .close .Available .Properties{
+width: 340px;
+
+}
+.Pricing .row .out_box .card .close .Available .Properties p{
+ font-size: 15px;   
+}
+
+
+
+}
+@media screen and (max-width: 500px){
+
+     /*Home*/
+     .Home .section1 .out .sec_1  {
+        width: 370px;
+        height: 70px;
+        
+        
+       }
+       .Home .section1 .out .sec_1 h1{
+           font-size:16px ;
+       }
+       .Home .section1 .out .sec_1 .svg{
+          width:20px ; 
+          height:20px ;
+       }
+
+
+
+
+       /*Benefits */
+.Benefits{
+    height: 2850px ;
+    display: flex;
+    flex-direction: column;
+}
+/*Our_Courses */
+.Our_Courses{
+height: 4350px ;
+
+}
+.Pricing .row .ROW .left_side{
+    height: 60px;
+    position: relative;
+    left: 15%;
+ }
+
+/* Testimonials */
+.Testimonials{
+    height: 2250px;
+}
+   /*Pricing */
+
+    .Pricing .row .out_box .card .first_button{
+        width: 300px;
+    }
+
+    .Pricing .row .out_box .card .close .Available .Properties{
+    width: 250px;
+    
+    }
+    .Pricing .row .out_box .card .close .Available .Properties p{
+     font-size: 10px;   
+    }
+     
+}
+
+
