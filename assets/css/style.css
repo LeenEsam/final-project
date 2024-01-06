@@ -1377,13 +1377,34 @@ width: 430px;
        
      }
 
+/*Our_Courses */
 
+.Our_Courses .row .Courses .card{
+    width:590px ;
+}
 
-
-
-
-
-
+/*Benefits */
+.items_Container .Row .card .card_content h4{
+    font-size: 18px;
+    font-weight: 600;
+    width: 400px;
+   height: 20px;
+       
+}
+.items_Container .Row .card .card_content p{
+    width: 300px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+   height: 40px;
+    
+}
+.items_Container .Row .card span{
+    width: 350px;
+    
+    font-size: 60px;
+    font-weight: 800;
+}
 
 /*Pricing */
 
