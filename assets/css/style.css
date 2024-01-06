@@ -1353,6 +1353,9 @@ width: 430px;
 }
 
 
+
+
+
 }
 @media screen and (max-width: 600px){
     /*Home*/
@@ -1380,12 +1383,15 @@ width: 430px;
 /*Our_Courses */
 
 .Our_Courses .row .Courses .card{
-    width:590px ;
+    width:550px ;
+   
+    flex-grow: 1;
+    flex-basis: 400px;
 }
 
 /*Benefits */
 .items_Container .Row .card .card_content h4{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     width: 400px;
    height: 20px;
@@ -1393,7 +1399,7 @@ width: 430px;
 }
 .items_Container .Row .card .card_content p{
     width: 300px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     display: flex;
    height: 40px;
