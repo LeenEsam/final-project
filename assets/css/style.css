@@ -630,9 +630,10 @@ font-weight: 600;
     font-weight: 600;
     
 }
+
 .Pricing .ROW{
   width: 100%;
-  height: 50px;  
+  height: 60px;  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -713,7 +714,7 @@ display: flex;
 .Pricing .row .out_box .card .Pricing{
     width: 530px;  
     height: 80px; 
-    background-color: white;
+    background: #FCFCFD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -723,6 +724,7 @@ display: flex;
     color:  #262626;
     font-size: 80px;
     font-weight: 600;
+   
 }
 .Pricing .row .out_box .card .Pricing span{
     color:  #4C4C4D;
@@ -1317,8 +1319,9 @@ gap: 30px;
     .section1 .sec_3{
         width: 500px;
     }
-    /* Benefits */
     
+    
+
 
     /*Pricing */
 
@@ -1328,6 +1331,10 @@ gap: 30px;
 
 .Pricing .row .out_box .card .close .Available .Properties{
 width: 430px;
+}
+.Pricing .ROW{
+    width: 100%;
+    height:70px ;
 }
 /*Our_Courses */
 
@@ -1442,6 +1449,9 @@ width: 430px;
    height: 40px;
     
 }
+.items_Container .Row .card {
+    padding: 10px;
+}
 .items_Container .Row .card span{
     width: 350px;
     
@@ -1541,7 +1551,7 @@ height: 4350px ;
     .Pricing .row .out_box .card .close .Available .Properties p{
      font-size: 10px;   
     }
-     
+ 
 }
 
 @media screen and (max-width: 400px){
