@@ -1302,6 +1302,19 @@ gap: 30px;
 
 
 @media screen and (max-width: 700px){
+    /*Home */
+    .section1 .sec_3{
+        width: 500px;
+    }
+    /* Benefits */
+    .Benefits .ROW p{
+        width: 600px;
+        font-size: 16px;
+        font-weight: 400;
+        color:  #59595A;
+    
+    }
+
     /*Pricing */
 
     .Pricing .row .out_box .card .first_button{
@@ -1314,10 +1327,7 @@ width: 430px;
 /*Our_Courses */
 
 .Our_Courses .row .Courses .card{
-    width:500px ;
-   
-    flex-grow: 1;
-    flex-basis: 400px;
+    flex: 1 1 50%;
 }
 
 
@@ -1387,6 +1397,14 @@ width: 430px;
         padding: 30px;
        
      }
+     /* Benefits */
+    .Benefits .ROW p{
+        width: 500px;
+        font-size: 16px;
+        font-weight: 400;
+        color:  #59595A;
+    
+    }
 
 /*Our_Courses */
 
@@ -1446,6 +1464,7 @@ width: 340px;
         
         
        }
+
        .Home .section1 .out .sec_1 h1{
            font-size:16px ;
        }
@@ -1454,7 +1473,9 @@ width: 340px;
           height:20px ;
        }
 
-
+.section1 .sec_3{
+        width: 400px;
+    }
 
 
        /*Benefits */
@@ -1462,6 +1483,14 @@ width: 340px;
     height: 2850px ;
     display: flex;
     flex-direction: column;
+}
+/* Benefits */
+.Benefits .ROW p{
+    width: 300px;
+    font-size: 16px;
+    font-weight: 400;
+    color:  #59595A;
+
 }
 /*Our_Courses */
 .Our_Courses{
